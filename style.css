@@ -1,0 +1,116 @@
+#person-img{
+    position: relative;
+    
+    max-width: 150px;
+    max-height:150px;
+    top: -10px;
+   
+    border-radius: 100%;
+
+}
+.container{
+    position: fixed;
+    width: 480px;
+    height: 610px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 5px  #eeecec;
+    border-radius: 20px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:35px;
+    position: relative;
+ 
+    left: 26%;
+}
+
+.img-container{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    left: 35%;
+}
+
+.underline{
+    position: relative;
+    width: 120px;
+    height: 5px;
+    top: -10px;
+    
+    background-color: rgb(137, 139, 241);
+    left: 40%;
+}
+
+
+body{
+    background-color: rgb(243, 239, 239);
+}
+
+h4#author{
+        position: relative;
+        top: -50px;
+        left: 195px;
+}
+p#job{
+    position: relative;
+    top: -65px;
+    left: -5px;
+    color: rgb(33, 99, 199);
+    text-align: center;
+}
+*{
+    font-family: 'Stalinist One', cursive;
+}
+
+#info{
+    position: relative;
+    text-align: center;
+    top: -70px;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+}
+button{
+    outline: none;
+    
+}
+.button-container{
+    position: relative;
+    top: -60px;
+    left: 165px;
+    width: 350px;
+   
+}
+i.fa{
+    font-size: 25px;
+    padding-left: 30px;
+    color: rgb(33, 99, 199);
+}
+i.fa:hover{
+    font-size: 30px;
+   
+    color: rgb(80, 66, 74);
+}
+button.random-btn{
+    position: relative;
+    display: block;
+    top: 16px;
+    left: 29px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    border:3px solid black;
+    text-align: center;
+}
+button.random-btn:hover{
+    background-color: rgb(18, 18, 46);
+   
+    color: rgb(0, 255, 55);
+}
